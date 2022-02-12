@@ -1,10 +1,10 @@
-<h1>Money: $0.00</h1>
-<p>Bag: $1.00</p>
+<script src="main.js"></script>
+<h1>Money: $<span id="money">0.00</span></h1>
+<p>Bag: $<span id="bag">1.00</span> left</p>
 <button onclick="money()">Get Money</button>
 <button onclick="fillBag()">Fill Bag</button>
 <h1>Upgrades</h1>
-<p>Power: 1</p>
-<button>Upgrade to 2 for $0.05</button>
-<p>Bag capacity: $1</p>
-<button>Upgrade to $2 for $1</button>
-<script src="main.js"></script>
+<p>Power: <span id="power">1</span></p>
+<button onclick="power2x()">Double power (FREE)</button>
+<p>Bag capacity: $<span id="capacity">1</span></p>
+<button onclick="bag2x()">Double capacity (FREE)</button>
